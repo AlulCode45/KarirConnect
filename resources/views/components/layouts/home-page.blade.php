@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title ?? 'KarirConnect' }}</title>
 </head>
+
 <body>
+    @yield('content')
 </body>
+
 </html>
